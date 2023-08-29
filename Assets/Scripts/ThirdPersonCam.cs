@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class ThirdPersonCam : MonoBehaviour
 {
-    
+    [Header("References")]
     public Transform orientation;
     public Transform Player;
     public Transform PlayerObject;
     public Rigidbody rb;
 
     public float RotationSpeed;
+
+    private void start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
 
     private void update()
     {
