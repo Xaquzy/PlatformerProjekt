@@ -34,7 +34,7 @@ public class ThirdMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        isGrounded = Physics.CheckSphere(transform.position, 0.1f, 0);
+        isGrounded = Physics.CheckSphere(transform.position, 0.1f, 1);
 
         if(isGrounded && velocity.y < 0)
         {
@@ -64,7 +64,16 @@ public class ThirdMove : MonoBehaviour
             controller.Move(moveDirection.normalized * trueSpeed * Time.deltaTime);
         }
 
-        velocity.y += gravity * Time.deltaTime;
+        //Jumping
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            velocity.y = Mathf.Sqrt((jumpHeight * 10) * -2f * gravity);
+        }
+
+        if(velocity.y > -20)
+        {
+            velocity.y += (gravity * 30) * Time.deltaTime;
+        }
         controller.Move(velocity * Time.deltaTime);
     }
 }
