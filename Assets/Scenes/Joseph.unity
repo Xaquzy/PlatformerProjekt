@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 304e878c559924ba89cba7c6b56e6707, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.28800645, g: 0.3199334, b: 0.3710211, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 648309a70910c443db6481ad2f043e2c, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 77c52016ce27e45298d40bba9d59e140, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1906,7 +1906,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380126903}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.102366835, y: -0.000000004278998, z: 4.4034076e-10, w: 0.99474674}
+  m_LocalRotation: {x: 0.102366835, y: 0.000000004278997, z: -4.4034068e-10, w: 0.99474674}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6034,7 +6034,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923363677}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.10236684, y: -0.0000000042789985, z: 4.403408e-10, w: 0.9947467}
+  m_LocalRotation: {x: 0.10236684, y: 0.0000000042789976, z: -4.403407e-10, w: 0.9947467}
   m_LocalPosition: {x: -0.69, y: 3.6100001, z: -7.9379997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
