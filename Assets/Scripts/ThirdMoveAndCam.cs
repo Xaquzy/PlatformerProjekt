@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThirdMove : MonoBehaviour
+public class ThirdMoveAndCam : MonoBehaviour
 {
     //Essentials
     public Transform cam;
@@ -10,6 +10,9 @@ public class ThirdMove : MonoBehaviour
     float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
     
+    //Animation
+    public Animator animator;
+
     //Movement
     Vector2 movement;
     public float walkSpeed;
@@ -26,6 +29,10 @@ public class ThirdMove : MonoBehaviour
 
     void Start()
     {
+        //Animator
+        //animator = GetComponent<Animator>();
+
+        //No cursor & Move
         trueSpeed = walkSpeed;
         controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
@@ -35,6 +42,7 @@ public class ThirdMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Grounding
         isGrounded = controller.isGrounded;
 
         if(isGrounded && velocity.y < 0)
@@ -42,6 +50,7 @@ public class ThirdMove : MonoBehaviour
             velocity.y = -1;
         }
         
+        //Sprinting
         if(Input.GetKeyDown(KeyCode.LeftShift))
         {
             trueSpeed = sprintSpeed;
@@ -65,9 +74,7 @@ public class ThirdMove : MonoBehaviour
             controller.Move(moveDirection.normalized * trueSpeed * Time.deltaTime);
         }
 
-        //Jumping
-        
-
+        //Jumping (max double jump)
         if (isGrounded)
         {
             counter = 2;
@@ -85,6 +92,28 @@ public class ThirdMove : MonoBehaviour
             velocity.y += (gravity * 30) * Time.deltaTime;
         }
         controller.Move(velocity * Time.deltaTime);
+
+        //Animation - Walking
+        if(direction.magnitude <= 0)
+        {
+            animator.SetBool("IsWalking", false);
+        }
+        else
+        {
+            animator.SetBool("IsWalking", true);
+        } 
+
+        //Animation - Sprinting
+        if(trueSpeed >= walkSpeed + 0.1f)
+        {
+            animator.SetBool("IsSprinting", true);
+        }
+        else
+        {
+            animator.SetBool("IsSprinting", false);
+        }
+
+
     }
 }
  
