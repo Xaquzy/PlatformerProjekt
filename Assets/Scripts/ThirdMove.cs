@@ -21,6 +21,7 @@ public class ThirdMove : MonoBehaviour
     public float gravity;
     bool isGrounded;
     Vector3 velocity;
+    private int counter = 2;
 
 
     void Start()
@@ -34,7 +35,7 @@ public class ThirdMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        isGrounded = Physics.CheckSphere(transform.position, 0.1f, 1);
+        isGrounded = controller.isGrounded;
 
         if(isGrounded && velocity.y < 0)
         {
@@ -65,10 +66,19 @@ public class ThirdMove : MonoBehaviour
         }
 
         //Jumping
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        
+
+        if (isGrounded)
+        {
+            counter = 2;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && counter > 0)
         {
             velocity.y = Mathf.Sqrt((jumpHeight * 10) * -2f * gravity);
+            counter = counter-1;
         }
+        
 
         if(velocity.y > -20)
         {
