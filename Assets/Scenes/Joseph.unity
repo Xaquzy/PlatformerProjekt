@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.6562281, g: 0.67023134, b: 0.612695, a: 1}
+  m_IndirectSpecularColor: {r: 0.6588906, g: 0.6715378, b: 0.61380523, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -490,7 +490,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112913533}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.10152108, y: -0.03219555, z: 0.0032872418, w: 0.99430686}
+  m_LocalRotation: {x: 0.10152108, y: -0.032195512, z: 0.0032872383, w: 0.99430686}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4980,14 +4980,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1762742156}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfb74d9ff46dcc4439e263c75451cc96, type: 3}
+  m_Script: {fileID: 11500000, guid: 93834b5195db939428c39d290ae4539a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1923363681}
-  walkSpeed: 5
-  sprintSpeed: 10
-  jumpHeight: 10
-  gravity: -3.5
+  animator: {fileID: 0}
+  walkSpeed: 10
+  sprintSpeed: 20
+  jumpHeight: 4
+  gravity: -2
 --- !u!1 &1774033169
 GameObject:
   m_ObjectHideFlags: 0
@@ -5504,7 +5505,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923363677}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.1260381, y: -0.032104578, z: 0.0040811, w: 0.9914974}
+  m_LocalRotation: {x: 0.1260381, y: -0.03210453, z: 0.0040810937, w: 0.9914974}
   m_LocalPosition: {x: 0.061610043, y: 5.57271, z: -12.071962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5744,7 +5745,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937247848}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.11954254, y: -0.032130606, z: 0.0038707727, w: 0.9923015}
+  m_LocalRotation: {x: 0.11954254, y: -0.03213056, z: 0.0038707673, w: 0.9923015}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
