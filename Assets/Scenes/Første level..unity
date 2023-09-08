@@ -288,6 +288,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (12)
@@ -403,6 +407,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.06
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (17)
@@ -506,6 +514,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 69.876
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (03)
@@ -620,6 +632,82 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14c0da53fe7d149b994ed2395eca1d62, type: 3}
+--- !u!1001 &231950409
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1358992610}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.105143
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.4324365
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 24.820799
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.065
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.52
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.083
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57966596
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5796661
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.40495354
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.40495348
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 69.876
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
+    - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Name
+      value: Sten (08)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 643669994}
+  m_SourcePrefab: {fileID: 100100000, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
 --- !u!1001 &297768652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -680,6 +768,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (9)
@@ -788,6 +880,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.06
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (13)
@@ -996,6 +1092,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 69.876
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (13)
@@ -1101,6 +1201,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (5)
@@ -1405,6 +1509,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (4)
@@ -1448,6 +1556,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
   m_PrefabInstance: {fileID: 623494560}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &643669992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+  m_PrefabInstance: {fileID: 231950409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &643669993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+  m_PrefabInstance: {fileID: 231950409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &643669994
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643669992}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.017163679
+  m_Height: 0.04076958
+  m_Direction: 1
+  m_Center: {x: 0.00017941935, y: -0.00793881, z: 0.019746298}
 --- !u!1001 &678952134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1508,6 +1649,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (19)
@@ -1653,6 +1798,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1358992610}
     m_Modifications:
+    - target: {fileID: -8883696801780387237, guid: c2f526d77504d43bab49208d608cc5f8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 04db1148388cc47de893844e5d644f25, type: 2}
     - target: {fileID: -8679921383154817045, guid: c2f526d77504d43bab49208d608cc5f8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.012285972
@@ -1806,7 +1955,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 098b703f7f6954c92bfddb436330eaff, type: 2}
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (07)
@@ -1984,6 +2133,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 78.927
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (16)
@@ -2089,6 +2242,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 69.876
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (02)
@@ -2194,6 +2351,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (11)
@@ -2442,6 +2603,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (12)
@@ -2545,6 +2710,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 9e6774d1cd17c4e4cb34f00db30045ba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fc969a61a97b468497b48ae2ddf64e4, type: 2}
     - target: {fileID: 919132149155446097, guid: 9e6774d1cd17c4e4cb34f00db30045ba, type: 3}
       propertyPath: m_Name
       value: Leafbox
@@ -2775,6 +2944,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 69.876
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (14)
@@ -3007,6 +3180,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (1)
@@ -3112,6 +3289,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (20)
@@ -3310,7 +3491,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203534854}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.112189844, y: 0.010847845, z: -0.0012248241, w: 0.99362683}
+  m_LocalRotation: {x: 0.112189844, y: 0.0108478535, z: -0.001224825, w: 0.99362683}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3378,6 +3559,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (05)
@@ -3558,7 +3743,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1525040041}
-  - {fileID: 2008755968}
+  - {fileID: 643669993}
+  - {fileID: 1491386251}
   - {fileID: 951988941}
   - {fileID: 569514351}
   - {fileID: 1127074752}
@@ -3676,6 +3862,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (18)
@@ -3876,6 +4066,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 9e6774d1cd17c4e4cb34f00db30045ba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fc969a61a97b468497b48ae2ddf64e4, type: 2}
     - target: {fileID: 919132149155446097, guid: 9e6774d1cd17c4e4cb34f00db30045ba, type: 3}
       propertyPath: m_Name
       value: Leafbox (2)
@@ -4082,6 +4276,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (6)
@@ -4125,6 +4323,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
   m_PrefabInstance: {fileID: 1490003406}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1491386250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+  m_PrefabInstance: {fileID: 1980819310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1491386251 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+  m_PrefabInstance: {fileID: 1980819310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1491386252
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491386250}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.017163679
+  m_Height: 0.04076958
+  m_Direction: 1
+  m_Center: {x: 0.00017941935, y: -0.00793881, z: 0.019746298}
 --- !u!1001 &1496110600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4185,6 +4416,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (16)
@@ -4428,6 +4663,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 9e6774d1cd17c4e4cb34f00db30045ba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fc969a61a97b468497b48ae2ddf64e4, type: 2}
     - target: {fileID: 919132149155446097, guid: 9e6774d1cd17c4e4cb34f00db30045ba, type: 3}
       propertyPath: m_Name
       value: Leafbox (3)
@@ -4646,6 +4885,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 69.876
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (15)
@@ -4751,6 +4994,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 69.876
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (06)
@@ -4856,6 +5103,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 9e6774d1cd17c4e4cb34f00db30045ba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fc969a61a97b468497b48ae2ddf64e4, type: 2}
     - target: {fileID: 919132149155446097, guid: 9e6774d1cd17c4e4cb34f00db30045ba, type: 3}
       propertyPath: m_Name
       value: Leafbox (1)
@@ -5287,6 +5538,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten
@@ -5392,6 +5647,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (8)
@@ -5495,6 +5754,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (11)
@@ -5875,6 +6138,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 69.876
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (8)
@@ -6203,6 +6470,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (15)
@@ -6315,7 +6586,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14c0da53fe7d149b994ed2395eca1d62, type: 3}
---- !u!1001 &2008755963
+--- !u!1001 &1980819310
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -6325,59 +6596,63 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.9285674
+      value: 2.105143
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.2385967
+      value: 2.4324365
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.6207392
+      value: 24.820799
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.070951134
+      value: 0.129
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2582315
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.027759403
+      value: 0.0804
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.894014
+      value: -0.15640426
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.37686875
+      value: 0.15640414
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.01685142
+      value: 0.68959254
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.24171254
+      value: 0.68959236
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 43
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 35
+      value: 205.558
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
-      value: Sten (10)
+      value: Sten (18)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6385,41 +6660,8 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2008755965}
+      addedObject: {fileID: 1491386252}
   m_SourcePrefab: {fileID: 100100000, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
---- !u!1 &2008755964 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
-  m_PrefabInstance: {fileID: 2008755963}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &2008755965
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008755964}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.017163677
-  m_Height: 0.04076958
-  m_Direction: 1
-  m_Center: {x: 0.0001794178, y: -0.007938808, z: 0.019746307}
---- !u!4 &2008755968 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
-  m_PrefabInstance: {fileID: 2008755963}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2055747466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6549,6 +6791,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (17)
@@ -6654,6 +6900,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 114.967
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50f9e332d20bf48c2a58aeba56d8b64a, type: 2}
     - target: {fileID: 919132149155446097, guid: e2b27000f97fb4fea9415195631564fc, type: 3}
       propertyPath: m_Name
       value: Sten (09)
@@ -6759,6 +7009,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 9e6774d1cd17c4e4cb34f00db30045ba, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2fc969a61a97b468497b48ae2ddf64e4, type: 2}
     - target: {fileID: 919132149155446097, guid: 9e6774d1cd17c4e4cb34f00db30045ba, type: 3}
       propertyPath: m_Name
       value: Leafbox (4)
@@ -6886,6 +7140,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.06
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02c1435a6fc0448c8afd669814d70de2, type: 2}
     - target: {fileID: 919132149155446097, guid: f4cddd409345b4d8e993d810d51e5ea8, type: 3}
       propertyPath: m_Name
       value: WoodenLog_fbx (14)
