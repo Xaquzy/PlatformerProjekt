@@ -113,6 +113,16 @@ public class ThirdMoveAndCam : MonoBehaviour
             animator.SetBool("IsSprinting", false);
         }
 
+        //Animation - Jumping
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            animator.SetBool("InAir", true);
+        }
+        
+        //else
+        {
+            //animator.SetBool("InAir", false);
+        }
 
     }
 }
