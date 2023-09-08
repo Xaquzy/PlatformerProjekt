@@ -119,9 +119,9 @@ public class ThirdMoveAndCam : MonoBehaviour
             animator.SetBool("InAir", true);
         }
         
-        //else
+        if(counter == 2)
         {
-            //animator.SetBool("InAir", false);
+            animator.SetBool("InAir", false);
         }
 
     }
