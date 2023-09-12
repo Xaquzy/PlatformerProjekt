@@ -20,7 +20,7 @@ public class SceneTransition : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         // Load scene
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Første level.");
     }
 
     public void LoadGameOverScene()
