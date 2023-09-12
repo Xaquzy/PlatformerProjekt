@@ -1,26 +1,42 @@
+
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class trunkRoll : MonoBehaviour
-{
-    //Essentials
-    public float speed;
-    public float distance;
-    private Vector3 startPos;
 
-    // Start is called before the first frame update
+{
+    public Transform startPoint;
+    public Transform endPoint;
+    public float speed;
+
+    private Vector3 targetPosition;
+    private bool moveToEnd = true;
+
     void Start()
     {
-        startPos = transform.position;
+        targetPosition = endPoint.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        Vector3 v = startPos;
-        v.z += distance * Mathf.Sin(Time.deltaTime * speed);
-        transform.position = v;
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+
+        if (transform.position == targetPosition)
+        {
+            if (moveToEnd)
+            {
+                transform.position = startPoint.position;
+            }
+            else
+            {
+                targetPosition = endPoint.position;
+            }
+
+            //MovingToEnd = !MovingToEnd;
+        }
+
 
     }
 }
