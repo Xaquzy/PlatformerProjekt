@@ -1679,7 +1679,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440914802}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.21754782, y: 0.0012982304, z: -0.00028935767, w: 0.97604877}
+  m_LocalRotation: {x: 0.21754782, y: 0.0012981929, z: -0.0002893493, w: 0.97604877}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2854,7 +2854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910879124}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.23526566, y: 0.0012927544, z: -0.00031292444, w: 0.9719302}
+  m_LocalRotation: {x: 0.23526564, y: 0.0012927188, z: -0.00031291583, w: 0.9719302}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4423,7 +4423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c6066273a5b56447807ec27e8ec3cc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenename: "F\xF8rste level."
+  scenename: MonkiMove
 --- !u!4 &1376901040
 Transform:
   m_ObjectHideFlags: 0
@@ -5579,7 +5579,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721778905}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.23137425, y: 0.0012940157, z: -0.00030775307, w: 0.972864}
+  m_LocalRotation: {x: 0.2313742, y: 0.0012939437, z: -0.00030773593, w: 0.972864}
   m_LocalPosition: {x: 0, y: 9.366139, z: -13.0921955}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
