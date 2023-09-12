@@ -20,7 +20,16 @@ public class SceneTransition : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         // Load scene
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Første level.");
+    }
+
+  public void LoadSecondLevel()
+    {
+        // No cursor while playing
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        // Load scene
+        SceneManager.LoadScene("Andet level");
     }
 
     public void LoadGameOverScene()
