@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Game Scener/F\xF8rste level..unity"
     guid: 1946da1758b024ca6b7338cd4f127e99
+  - enabled: 1
+    path: Assets/Scenes/Game Scener/Andet level.unity
+    guid: 5df195881bafba44d85953e9124d8d0b
   m_configObjects: {}
