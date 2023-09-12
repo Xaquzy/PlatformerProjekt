@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43865806, g: 0.4867909, b: 0.56706244, a: 1}
+  m_IndirectSpecularColor: {r: 0.4386579, g: 0.48679107, b: 0.5670624, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3574,7 +3574,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203534854}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.112189844, y: 0.010847845, z: -0.0012248241, w: 0.99362683}
+  m_LocalRotation: {x: 0.112189844, y: 0.010847847, z: -0.0012248243, w: 0.9936269}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3997,6 +3997,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3803987473241992875, guid: 14c0da53fe7d149b994ed2395eca1d62, type: 3}
   m_PrefabInstance: {fileID: 587379278}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1394616447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1394616449}
+  - component: {fileID: 1394616448}
+  m_Layer: 0
+  m_Name: SceneChange1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1394616448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394616447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5824ece20c0d4414abf6af6a18233ef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1394616449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394616447}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.709902, y: 26.558533, z: 127.01687}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1451449937
 GameObject:
   m_ObjectHideFlags: 0
@@ -6640,6 +6684,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1955742615}
+  - component: {fileID: 1955742616}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -6663,6 +6708,34 @@ Transform:
   - {fileID: 1676666255}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1955742616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955742614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80120c0bf2cf61248911c42f1c0be262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressDownSpeed: 0.01
+  OnPress:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1394616448}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+        m_MethodName: LoadSecondLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1980048602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7320,3 +7393,4 @@ SceneRoots:
   - {fileID: 1873324394}
   - {fileID: 1358992610}
   - {fileID: 1955742615}
+  - {fileID: 1394616449}

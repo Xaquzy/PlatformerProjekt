@@ -23,6 +23,15 @@ public class SceneTransition : MonoBehaviour
         SceneManager.LoadScene("Første level.");
     }
 
+  public void LoadSecondLevel()
+    {
+        // No cursor while playing
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        // Load scene
+        SceneManager.LoadScene("Andet level");
+    }
+
     public void LoadGameOverScene()
     {
         // Enable cursor before switching screen
