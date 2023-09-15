@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test Scener/gamle spil med forrige vandfald/start.unity
-    guid: 32f1205eb43b44f2b88040be304a25b9
-  - enabled: 1
-    path: Assets/Scenes/Test Scener/gamle spil med forrige vandfald/lvl2.unity
+    path: Assets/Scenes/Endelige Spil/Bane2.unity
     guid: b3f11376743364a028274594630acbba
   - enabled: 1
-    path: Assets/Scenes/Test Scener/gamle spil med forrige vandfald/lvl1.unity
+    path: Assets/Scenes/Endelige Spil/Bane1.unity
     guid: 1916ff73e9a4c4728b5fc42dacee9aad
+  - enabled: 1
+    path: Assets/Scenes/Endelige Spil/BaneStart.unity
+    guid: 32f1205eb43b44f2b88040be304a25b9
   m_configObjects: {}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.8685764, g: 0.8824715, b: 0.7662119, a: 1}
+  m_IndirectSpecularColor: {r: 0.86857647, g: 0.8824716, b: 0.7662121, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2107,7 +2107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c6066273a5b56447807ec27e8ec3cc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenename: lvl2
+  scenename: Bane2
 --- !u!4 &966742075
 Transform:
   m_ObjectHideFlags: 0
@@ -2489,7 +2489,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096311382}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09217596, y: 0.040858302, z: -0.0037854703, w: 0.99489695}
+  m_LocalRotation: {x: 0.09217596, y: 0.040858295, z: -0.0037854693, w: 0.99489695}
   m_LocalPosition: {x: 13.477786, y: 11.312572, z: 43.58645}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2796,7 +2796,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203534854}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0704864, y: 0.040931065, z: -0.0028947268, w: 0.99666846}
+  m_LocalRotation: {x: 0.0704864, y: 0.040931057, z: -0.0028947263, w: 0.99666846}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3283,7 +3283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481954623}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08855581, y: 0.0408718, z: -0.0036367981, w: 0.9952257}
+  m_LocalRotation: {x: 0.08855581, y: 0.040871788, z: -0.0036367977, w: 0.9952257}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
