@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Endelige Spil/BaneStart.unity
     guid: 32f1205eb43b44f2b88040be304a25b9
+  - enabled: 1
+    path: Assets/Scenes/Endelige Spil/WinScreen.unity
+    guid: 2edc5c968c05e2141a583cc2fdda40ef
   m_configObjects: {}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6562281, g: 0.67023134, b: 0.612695, a: 1}
+  m_IndirectSpecularColor: {r: 0.6588906, g: 0.6715378, b: 0.61380523, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1722,7 +1722,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440914802}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.21754782, y: 0.0012982307, z: -0.00028935776, w: 0.9760488}
+  m_LocalRotation: {x: 0.21754782, y: 0.0012982304, z: -0.00028935767, w: 0.97604877}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4554,8 +4554,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1376901040}
-  - component: {fileID: 1376901039}
   - component: {fileID: 1376901038}
+  - component: {fileID: 1376901039}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -4578,7 +4578,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4596,7 +4596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c6066273a5b56447807ec27e8ec3cc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenename: MonkiMove
+  scenename: WinScreen
 --- !u!4 &1376901040
 Transform:
   m_ObjectHideFlags: 0
@@ -5416,7 +5416,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721778905}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2313742, y: 0.001293952, z: -0.0003077379, w: 0.972864}
+  m_LocalRotation: {x: 0.2313742, y: 0.001293952, z: -0.00030773788, w: 0.972864}
   m_LocalPosition: {x: 0, y: 9.366139, z: -13.0921955}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
