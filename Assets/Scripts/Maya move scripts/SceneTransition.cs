@@ -29,7 +29,7 @@ public class SceneTransition : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         // Load scene
-        SceneManager.LoadScene("Andet level");
+        SceneManager.LoadScene("lv2");
     }
 
     public void LoadGameOverScene()
