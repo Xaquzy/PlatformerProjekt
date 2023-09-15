@@ -34,7 +34,6 @@ public class trunkRoll : MonoBehaviour
                 targetPosition = endPoint.position;
             }
 
-            //MovingToEnd = !MovingToEnd;
         }
 
 
