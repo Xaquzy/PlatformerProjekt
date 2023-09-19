@@ -74,7 +74,7 @@ public class ThirdMoveAndCam : MonoBehaviour
             controller.Move(moveDirection.normalized * trueSpeed * Time.deltaTime);
         }
 
-        //Jumping (max double jump)
+        //Jumping (max doublejump)
         if (isGrounded)
         {
             counter = 2;
@@ -111,17 +111,6 @@ public class ThirdMoveAndCam : MonoBehaviour
         else
         {
             animator.SetBool("IsSprinting", false);
-        }
-
-        //Animation - Jumping
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            animator.SetBool("InAir", true);
-        }
-        
-        if(counter == 2)
-        {
-            animator.SetBool("InAir", false);
         }
 
     }
