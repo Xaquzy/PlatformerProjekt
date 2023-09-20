@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6588906, g: 0.6715378, b: 0.61380523, a: 1}
+  m_IndirectSpecularColor: {r: 0.6562281, g: 0.67023134, b: 0.612695, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -275,7 +275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7088320}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.19980507, y: 0.0013032643, z: -0.00026575782, w: 0.9798348}
+  m_LocalRotation: {x: 0.19980507, y: 0.0013032305, z: -0.00026575098, w: 0.9798348}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1850,7 +1850,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440914802}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.21754782, y: 0.0012981929, z: -0.0002893493, w: 0.97604877}
+  m_LocalRotation: {x: 0.21754782, y: 0.0012981931, z: -0.00028934935, w: 0.9760488}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3151,7 +3151,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910879124}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.23526564, y: 0.0012927188, z: -0.00031291583, w: 0.9719302}
+  m_LocalRotation: {x: 0.23526566, y: 0.0012927544, z: -0.00031292444, w: 0.9719302}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5672,7 +5672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721778905}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2313742, y: 0.0012939437, z: -0.00030773593, w: 0.972864}
+  m_LocalRotation: {x: 0.23137425, y: 0.0012940074, z: -0.00030775112, w: 0.972864}
   m_LocalPosition: {x: 0, y: 9.366139, z: -13.0921955}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6398,7 +6398,7 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 1000
+    m_MaxSpeed: 750
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
